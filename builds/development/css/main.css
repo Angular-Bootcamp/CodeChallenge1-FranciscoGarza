@@ -1,0 +1,129 @@
+
+/*Navigation Header */
+.navbar-text {
+    font-size: 25px;
+}
+
+.top    {
+    margin-bottom: 10px;
+    background-color: #E91E63;
+    color: white;
+}
+
+.backButton {
+    color:white;
+    font-size: 30px;
+}
+
+/*Pokemon Description */
+
+.pokeImg {
+    margin-top: 15px;
+}
+
+.title {
+    margin: 10px 0 5px 0;
+}
+
+.title img {
+    max-height: 20px;
+}
+
+.title h2, b {
+
+    color: #E91E63;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.title i {
+    font-size: 35px;
+    line-height: 35px;
+}
+
+.noPadding {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.icons img {
+    margin-left: 5px;
+}
+
+.info h3 {
+    color: #949494;
+    font-size: 14px;
+    line-height: 10px;
+    margin: 0px !important;
+}
+
+.info ul {
+    margin: 5px 0 5px 0 !important;
+}
+
+.desc {
+    font-size: 12px;
+    color: #949494;
+}
+
+/* General Information */
+.panel {
+    margin-bottom: 0px !important;
+}
+
+.grlDesc {
+    margin-top: 10px;
+}
+
+.panel-heading {
+    background-color: #949494 !important;
+}
+
+.panel-title {
+    color: white;
+}
+
+.table>tbody>tr>td {
+    color: #949494;
+    padding-left: 15px;
+}
+
+.descTitle {
+    font-size: 16px;
+    color:  #949494;
+}
+
+/* Evolution Section */
+
+.evoImg {
+    max-height: 80px;
+    margin: 10px 0 10px 40px;
+    border: solid .2px #E7E3E3;
+}
+
+.pokeNum {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 5px;
+    color: #949494;
+}
+
+.evoName {
+    font-size: 22px;
+}
+
+.evoLvl {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+span.bug {
+    background-color: #67AB9F;
+}
+
+span.grass {
+    background-color: #97D077;
+}
+span.poison {
+    background-color: #7F628C;
+}
