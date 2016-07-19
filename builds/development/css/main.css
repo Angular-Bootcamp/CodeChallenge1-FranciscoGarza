@@ -34,8 +34,7 @@ b {
   margin: 0px;
 }
 .noPadding {
-  padding-left: 0px !important;
-  padding-right: 0px !important;
+  padding: 0px !important;
 }
 .icons img {
   margin-left: 5px;
@@ -76,7 +75,9 @@ b {
 .evoImg {
   border: solid 0.2px #e7e3e3;
   margin: 10px 0 10px 40px;
-  max-height: 80px;
+  height: 80px;
+  width: 85px;
+  padding: 5px;
 }
 .pokeNum {
   color: #949494;
@@ -86,25 +87,22 @@ b {
 }
 .evoName {
   font-size: 22px;
+  color: black;
 }
 .evoLvl {
   font-size: 12px;
+  color: black;
   margin-left: 5px;
 }
 span.bug {
   background-color: #67ab9f;
+  margin-right: 5px;
 }
 span.grass {
   background-color: #97d077;
+  margin-right: 5px;
 }
 span.poison {
   background-color: #7f628c;
-}
-
-p {
-  text-align: center;
-}
-
-h4 {
-  color: red;
+  margin-right: 5px;
 }

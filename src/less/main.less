@@ -1,9 +1,9 @@
 @color0: #949494; // Appears 6 times
 @color1: #e91e63; // Appears 3 times
-@color2: #7f628c; // Appears 1 time
-@color3: #97d077; // Appears 1 time
+@poison: #7f628c; // Appears 1 time
+@grass: #97d077; // Appears 1 time
 @color4: #e7e3e3; // Appears 1 time
-@color5: #67ab9f; // Appears 1 time
+@bug: #67ab9f; // Appears 1 time
 
 
 
@@ -43,8 +43,7 @@ b {
   margin: 0px;
 }
 .noPadding {
-  padding-left: 0px !important;
-  padding-right: 0px !important;
+  padding: 0px !important;
 }
 .icons {
   img {
@@ -89,7 +88,10 @@ b {
 .evoImg {
   border: solid .2px @color4;
   margin: 10px 0 10px 40px;
-  max-height: 80px;
+  height: 80px;
+  width: 85px;
+  padding: 5px;
+
 }
 .pokeNum {
   color: @color0;
@@ -99,17 +101,22 @@ b {
 }
 .evoName {
   font-size: 22px;
+  color: black;
 }
 .evoLvl {
   font-size: 12px;
+  color: black;
   margin-left: 5px;
 }
 span.bug {
-  background-color: @color5;
+  background-color: @bug;
+  margin-right: 5px;
 }
 span.grass {
-  background-color: @color3;
+  background-color: @grass;
+  margin-right: 5px;
 }
 span.poison {
-  background-color: @color2;
+  background-color: @poison;
+  margin-right: 5px;
 }

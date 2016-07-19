@@ -6,14 +6,16 @@ var gulp = require('gulp'),
     cleancss = require('gulp-cleancss'),
     uglify = require('gulp-uglify'),
     rename = require('gulp-rename'),
-    watch = require('gulp-watch');
+    watch = require('gulp-watch'),
+    livereload = require('gulp-livereload');
 
 //Compile Jade
 
 gulp.task('jade', function () {
     return gulp.src('src/templates/**/*.jade')
         .pipe(jade())
-        .pipe(gulp.dest('builds/development'));
+        .pipe(gulp.dest('builds/development'))
+        .pipe(livereload());
 });
 
 //Compile Less
@@ -55,9 +57,13 @@ gulp.task('mincss', function () {
 //Watch Task
 
 gulp.task('watch', function () {
+    livereload.listen();
+    gulp.watch(['src/templates/*.*'],['jade']);
+    gulp.watch(['src/less/*.*'],['less']);
     gulp.watch(['src/js/*.js'],['minjs']);
     gulp.watch(['builds/development/css/*.css'],['mincss']);
 });
+
 
 
 
