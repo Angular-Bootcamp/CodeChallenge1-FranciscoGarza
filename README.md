@@ -13,7 +13,7 @@ ScreenShot of the Final Interface for Challenge #1
 
 
 
-![Demo](screenshoot.jpg)
+![Demo](ScreenShoot.jpg)
 
 
 
