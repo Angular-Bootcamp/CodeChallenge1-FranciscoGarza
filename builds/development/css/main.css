@@ -100,3 +100,11 @@ span.grass {
 span.poison {
   background-color: #7f628c;
 }
+
+p {
+  text-align: center;
+}
+
+h4 {
+  color: red;
+}
