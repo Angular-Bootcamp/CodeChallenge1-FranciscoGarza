@@ -17,13 +17,10 @@ ScreenShot of the Final Interface for Challenge #1
 
 
 
-## Requirements
-
-
+##Markup & Style
 
 - [X] Mobile First (Mobile Only)
 - [X] Use Less for CSS
-
 - [X] Use Bootstrap3 for the UI
 
 ##DevOps
